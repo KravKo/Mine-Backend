@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.main-container{
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.button-grids {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover{
+  background-color: rgb(56, 56, 56);
+}
+
+
+.admin-button{
+  height: 70px;
+  width: 200px;
+  background-color: rgb(31, 30, 42);
+  color: white;
+}
+
+
+
+.admin{
+  background-color: rgb(132, 132, 175);
+  padding: 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.admin select{
+  height: 50px;
+  width: 200px;
+}

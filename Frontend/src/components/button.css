@@ -1,0 +1,9 @@
+.mine-buttons{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.mine-buttons:hover{
+    background-color: rgb(46, 46, 46);
+}

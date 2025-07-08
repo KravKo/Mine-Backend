@@ -23,6 +23,11 @@ app.get("/api/status", (req, res)=>{
 })
 
 app.post("/api/status", (req, res)=>{
+    console.log("changed")
+    const { outcome } = req.body;
+    if (outcome === 'win' || outcome === 'lose') {
+        gameState.outcome = outcome;
+    }
     res.status(200);
     return res.json({Message: 'Updated', gameState})
 })
